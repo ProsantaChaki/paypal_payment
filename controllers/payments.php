@@ -6,7 +6,7 @@ extract($_POST);
 $enableSandbox = true;
 
 $paypalConfig = [
-    'email' => 'sb-h43fjp802272@business.example.com',
+    'email' => 'abcd@business.example.com', //Enter Your sandbox business email 
 ];
 
 $paypalUrl = $enableSandbox ? 'https://www.sandbox.paypal.com/cgi-bin/webscr' : 'https://www.paypal.com/cgi-bin/webscr';
